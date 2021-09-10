@@ -33,12 +33,12 @@
     <main class="container">
       <!-- About Me -->
       <section class="aboutMe">
-        <h2>About Me</h2>
+        <div class="title">About Me</div>
         <hr />
 
         <!-- Introduction -->
         <article class="introduction">
-          <h3>Introduction</h3>
+          <div class="subTitle">Introduction</div>
           <ul>
             <li>好奇心の価値~~~~</li>
             <li>好奇心の価値~~~~</li>
@@ -48,34 +48,39 @@
 
         <!-- Contect & Channel -->
         <article class="contectAndChannel">
-          <h3>Contect & Channel</h3>
+          <div class="subTitle">Contect & Channel</div>
           <ul>
             <li>Email | haneul1ij@gmail.com</li>
-            <li>Github | https://github.com/chanyu1</li>
+            <li>
+              Github |
+              <a href="https://github.com/chanyu1">
+                https://github.com/chanyu1
+              </a>
+            </li>
           </ul>
         </article>
       </section>
 
       <!-- Skills -->
       <section class="skills">
-        <h2>Skills</h2>
+        <div class="title">Skills</div>
         <hr />
 
         <!-- frontend -->
         <article class="frontend">
-          <h3>Frontend</h3>
+          <div class="subTitle">Frontend</div>
           <ul>
             <li>HTML5, CSS3</li>
-            <li>JavaScript(ES6)</li>
-            <li>React(React-redux, Hooks)</li>
+            <li>JavaScript (ES6)</li>
+            <li>React (React-redux, Hooks)</li>
           </ul>
         </article>
 
         <!-- backend -->
         <article class="backend">
-          <h3>Backend</h3>
+          <div class="subTitle">Backend</div>
           <ul>
-            <li>Node.js(Express)</li>
+            <li>Node.js (Express)</li>
             <li>Java</li>
             <li>Python</li>
           </ul>
@@ -83,7 +88,7 @@
 
         <!-- devops -->
         <article class="devops">
-          <h3>DevOps</h3>
+          <div class="subTitle">DevOps</div>
           <ul>
             <li>Oracle Database, MongoDB</li>
             <li>Git</li>
@@ -95,21 +100,23 @@
 
       <!-- Work Experience & Projects -->
       <section class="workProjects">
-        <h2>Work Experience & Projects</h2>
+        <div class="title">Work Experience & Projects</div>
         <hr />
 
         <!-- NTT DoCoMo -->
         <article class="docomo">
-          <h3>ドコモ基地局監視システム(테크노브레이브)</h3>
-          <div>
-            2020-07 ~ 2021-09 ( 1年3ケ月 ) 役割： チームメンバー 人数：
-            チームの在籍人数25人前後
-          </div>
+          <div class="subTitle">ドコモ基地局監視システム</div>
+          <div>2020-07 ~ 2021-09 (1年3ヶ月)</div>
+          <div>開発人数25人前後</div>
+          <div>チームメンバー</div>
           <ul>
             <li>
-              ドコモ基地局監視システムの追加機能開発業務をメインとして、ドキュメント作成、レビュー、単体・結合テスト実施とそれに伴うエビデンス取得、改修開発等。
+              追加機能の改修開発業務をメインとして
+              <ul>
+                <li>ドキュメント作成及びレビュー</li>
+                <li>単体・結合テスト実施とそれに伴うエビデンス取得</li>
+              </ul>
             </li>
-            <li>単体テスト、結合テスト、システム改修開発担当</li>
             <li>[環境]Windows10, Linux, SVN, JUnit</li>
             <li>[言語]Java</li>
             <li>[使用アプリケーション]Eclipse, TeraTerm</li>
@@ -119,58 +126,68 @@
 
       <!-- Personal Experience & Projects -->
       <section class="personalProjects">
-        <h2>Personal Experience & Projects</h2>
+        <div class="title">Personal Experience & Projects</div>
         <hr />
 
         <!-- KOU -->
         <article class="kou">
-          <h3>KOU (작품 테마별 공유 사이트) 어플리케이션</h3>
-          <div>GoTo(https://kou-app.herokuapp.com/)</div>
-          <div>깃허브 https://github.com/chanyu1/KOU-app/</div>
-          <div>2021.7 ~ 現在 一人</div>
+          <div class="subTitle">KOU</div>
+          <div>
+            <a href="https://kou-app.herokuapp.com/">GoTo</a>
+          </div>
+          <div>
+            <a href="https://github.com/chanyu1/KOU-app/">GitHub</a>
+          </div>
+          <div>開発中</div>
+          <div>開発人数1人</div>
           <ul>
-            <li>[環境]MacOS, git, JUnit</li>
-            <li>[言語]Java</li>
-            <li>[使用アプリケーション]Eclipse, TeraTerm</li>
-            <li>
-              React(React-redux, Hooks) v Node.js(Express) v MongoDB v Heroku
-            </li>
+            <li>작품 테마별 공유 사이트</li>
+            <li>[環境]MacOS, git</li>
+            <li>[使用アプリケーション]VScode</li>
+            <li>React (React-redux, Hooks)</li>
+            <li>Node.js (Express)</li>
+            <li>MongoDB</li>
+            <li>Heroku -> AWS✨</li>
           </ul>
         </article>
       </section>
 
       <!-- More Info -->
       <section class="moreInfo">
-        <h2>More Info</h2>
+        <div class="title">More Info</div>
         <hr />
 
         <!-- School -->
         <article class="school">
-          <h3>日本電子専門学校 (2018.4 ~ 2020.3)</h3>
+          <div class="subTitle">日本電子専門学校</div>
+          <div>2018.4 ~ 2020.3</div>
           <ul>
-            <li>AIシステム科卒業</li>
+            <li>AIシステム科 卒業</li>
+            <li>奨学金</li>
+            <li>韓国紹介出張</li>
           </ul>
         </article>
 
         <!-- Techno Brave -->
         <article class="techno">
-          <h3>テクノブレイブ株式会社 (2020.4 ~)</h3>
+          <div class="subTitle">テクノブレイブ株式会社</div>
+          <div>2020.4 ~ 在籍中</div>
           <ul>
-            <li>docomo...</li>
-            <li>react native....</li>
+            <li>ドコモ基地局監視システムの追加機能開発</li>
+            <li>React native....</li>
             <li>파견 사원으로 활동하면서 프론트 공부와 토이 프로젝트 병행</li>
           </ul>
         </article>
 
         <!-- License -->
         <article class="license">
-          <h3>자격증</h3>
+          <div class="subTitle">資格</div>
           <ul>
-            <li>Oracle認定Javaプログラマー Silver SE8(2018.8)</li>
-            <li>Python 3エンジニア認定基礎試験(2018.10)</li>
-            <li>統計検定 3級(2018.11)</li>
-            <li>Oracle認定Javaプログラマー Gold SE8(2019.1)</li>
-            <li>日本語能力試験 N1(2019.1)</li>
+            <li>Oracle認定Javaプログラマー Silver SE8 (2018.8)</li>
+            <li>Python 3エンジニア認定基礎試験 (2018.10)</li>
+            <li>統計検定 3級 (2018.11)</li>
+            <li>Oracle認定Javaプログラマー Gold SE8 (2019.1)</li>
+            <li>日本語能力試験 N1 (2019.1)</li>
           </ul>
         </article>
       </section>
