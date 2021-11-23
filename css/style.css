@@ -5,11 +5,12 @@
   --green-color: #197a6c;
   --banner-color: #f1f8e9;
   --line-color: #e0e0e0;
+  --link-color: #808080;
   /* Font size */
   --font-header: 2rem;
   --font-large: 1.9rem;
   --font-medium: 1.4rem;
-  --font-small: 0.95rem;
+  --font-small: 0.85rem;
 }
 
 body {
@@ -43,6 +44,10 @@ section {
   padding: 28px 0;
 }
 
+a {
+  color: var(--link-color);
+}
+
 hr {
   border: 0;
   height: 1px;
@@ -64,7 +69,7 @@ section .container {
 }
 
 section .container .content__left {
-  flex-basis: 40%;
+  flex-basis: 44%;
 }
 
 section .container .content__left .subTitle {
@@ -75,5 +80,5 @@ section .container .content__left .subTitle {
 }
 
 section .container .content__right {
-  flex-basis: 60%;
+  flex-basis: 56%;
 }
