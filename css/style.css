@@ -1,6 +1,5 @@
 :root {
   /* Color */
-  --black-color: #1b1b1b;
   --grey-color: #424242;
   --green-color: #197a6c;
   --banner-color: #f1f8e9;
@@ -55,11 +54,6 @@ hr {
   background-color: var(--line-color);
 }
 
-/* span  */
-.highlight {
-  background-color: var(--highlight-color);
-}
-
 section .title {
   font-weight: bold;
   font-size: var(--font-large);
@@ -81,10 +75,13 @@ section .container .content__left {
 section .container .content__left .subTitle {
   font-weight: bold;
   font-size: var(--font-medium);
-  color: var(--black-color);
   padding: 16px 0;
 }
 
 section .container .content__right {
   flex-basis: 57%;
+}
+
+section article .highlight {
+  background-color: var(--highlight-color);
 }
